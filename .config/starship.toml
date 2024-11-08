@@ -1,0 +1,40 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$fill\
+$time\
+$line_break\
+$character"""
+
+[fill]
+symbol = " "
+
+# ------------------------------------------------
+# left
+# ------------------------------------------------
+
+[git_branch]
+format = "[$branch]($style) "
+style = "bright-black"
+
+[git_state]
+style = "bright-black"
+
+[git_status]
+style = "cyan"
+
+# ------------------------------------------------
+# right
+# ------------------------------------------------
+
+[cmd_duration]
+format = " [$duration]($style)"
+style = "yellow"
+
+[time]
+disabled = false
+format = " [$time]($style)"
+time_format = "%H:%M:%S %d-%m-%Y "
+style = "bright-black"

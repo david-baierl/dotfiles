@@ -1,0 +1,19 @@
+[user]
+	name = David Baierl
+	email = 12718257+david-baierl@users.noreply.github.com
+	signingkey = 1FA3D2E54E18615E
+[core]
+	eol = lf
+	autocrlf = false
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[gpg]
+	program = "/mnt/c/Program Files (x86)/GnuPG/bin/gpg.exe"
+[init]
+	defaultBranch = main
