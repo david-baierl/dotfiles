@@ -15,6 +15,9 @@ symbol = " "
 # left
 # ------------------------------------------------
 
+[directory]
+truncate_to_repo = false
+
 [git_branch]
 format = "[$branch]($style) "
 style = "bright-black"
