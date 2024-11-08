@@ -19,19 +19,9 @@ symbol = " "
 format = "[$branch]($style) "
 style = "bright-black"
 
-[git_state]
-style = "bright-black"
-
-[git_status]
-style = "cyan"
-
 # ------------------------------------------------
 # right
 # ------------------------------------------------
-
-[cmd_duration]
-format = " [$duration]($style)"
-style = "yellow"
 
 [time]
 disabled = false
