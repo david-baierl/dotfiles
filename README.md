@@ -15,11 +15,11 @@
 ## Installation
 
 ```sh
-git clone git@github.com:david-baierl/dotfiles.git .dotfiles
+git clone git@github.com:david-baierl/dotfiles.git
 ```
 
 ```sh
-cd .dotfiles
+cd dotfiles
 ```
 
 ```sh
