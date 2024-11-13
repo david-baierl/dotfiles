@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-git clone git@github.com:david-baierl/.dotfiles.git
+git clone git@github.com:david-baierl/dotfiles.git .dotfiles
 ```
 
 ```sh
