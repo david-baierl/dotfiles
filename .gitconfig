@@ -9,6 +9,7 @@
 	rebase = true
 [push]
 	autoSetupRemote = true
+	recurseSubmodules = on-demand
 [commit]
 	gpgsign = true
 [tag]
