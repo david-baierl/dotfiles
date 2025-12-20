@@ -1,15 +1,20 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/david/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
+
+FPATH=~/.nodenv/completions:"$FPATH"
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
+
+# bun completions
+[ -s "~/.bun/_bun" ] && source "~/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 export GALLIUM_DRIVER=d3d12
 export LIBVA_DRIVER_NAME=d3d12
