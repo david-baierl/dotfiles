@@ -2,13 +2,6 @@
 
 ## Requirements
 
-- [curl](https://curl.se/)
-- [fish](https://fishshell.com/)
-- [starship](https://starship.rs/)
-- [fisher](https://github.com/jorgebucaran/fisher)
-    - jorgebucaran/fisher
-    - jorgebucaran/autopair.fish
-    - edc/bass
 - [git](https://git-scm.com/)
 - [gnu stow](https://www.gnu.org/software/stow/)
 
@@ -25,3 +18,11 @@ cd dotfiles
 ```sh
 stow .
 ```
+
+## Features
+
+This repository features configurations for the following tools
+
+- zsh
+- starship
+- git
