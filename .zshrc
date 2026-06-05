@@ -20,6 +20,7 @@ export GALLIUM_DRIVER=d3d12
 export LIBVA_DRIVER_NAME=d3d12
 
 alias ls='ls --color=auto'
+alias ll='ls -la'
 alias lisa='ls -lisa'
 alias grep='grep --color=auto'
 
