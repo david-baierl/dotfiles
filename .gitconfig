@@ -6,6 +6,7 @@
 	eol = lf
 	autocrlf = false
 	excludesFile = ~/.gitignore.global
+	editor = vim
 [pull]
 	rebase = true
 [push]
